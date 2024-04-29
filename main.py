@@ -21,8 +21,9 @@ url_image = config['url_image']
 
 url = f"https://api.steampowered.com/IGameServersService/GetServerList/v1/?key={config['steam_code']}&filter=addr\\{config['server_ip']}:{config['server_port']}"
 
-# Imprimir la URL para verificar
-print("URL:", url)
+
+url_minecraft = f"https://api.mcsrvstat.us/3/{server_ip}:{server_port}"
+
 
 
 
